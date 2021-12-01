@@ -1,4 +1,4 @@
-import socketServer from './server.js';
+import socketServer from './index.js';
 import axios from 'axios'
 async function getCurrencyPrice(){
     // let data  = await axios.get(`https://api.exchangerate-api.com/v4/latest/INR`);

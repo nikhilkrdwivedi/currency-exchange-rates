@@ -18,7 +18,7 @@ application.get('/test-v1', (req, res) => {
   });
 export const socketServer = new io.Server(server, {
     cors: {
-      origins: ['http://localhost:4200']
+      origins: ['http://localhost:4200','http://localhost:3000']
     }
 });
 
